@@ -20,6 +20,9 @@ public class Class1 extends Thread{
 			}
 			count--; // kurangin 1 setiap kali
 			System.out.println("Countdown 1 current: " + count);
+			
+			
+			
 		}
 		
 		System.out.println("Status: " + isDaemon()); // tampilin status thread apakah ia daemon
